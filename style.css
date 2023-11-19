@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+@font-face {
+    font-family: "CaviarDreams";
+    src: url(fonts/CaviarDreams.ttf);
+ }
+
+.main-title{
+    font-family: "Montserrat";
+    font-size: 50px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 0px;
+}
+
+.main-subtitle{
+    font-family: "Roboto";
+    margin-top: 60px;
+    font-size: 36px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.main-text{
+    font-family: "Poppins";
+    margin: 0 70px
+}
+
+.description-image{
+    float: left;
+    border-radius: 6%;
+    width: 400px;
+    margin: 0 50px;
+}
+
+.image-description{
+    margin: 0 50px;
+    font-family: "Poppins";
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    max-width: 400px;
+}
+
+.main-list{
+    font-family: "Poppins";
+    margin: 0 80px;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: "Poppins";
+}
+
+.note{
+    color: red;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    font-family: "Poppins";
+}
+
+.footer-div{
+    background-color: lightblue;
+    padding: 6px 0;
+}
+
+.footer-name{
+    font-family: "CaviarDreams";
+    margin-top: 5px;
+    font-size: 20px;
+}
+
+.spoiler-nao-pode{
+    font-size: 50px;
+    font-family: "Montserrat";
+    color: red;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.video-main{
+    display: block;
+    margin: 0 auto;
+    width: 500px;
+    border-radius: 6%;
+    margin-top: 10px;
+
+}
